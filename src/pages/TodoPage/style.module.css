@@ -1,0 +1,32 @@
+.root {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  padding: 100px;
+}
+
+.block_left {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 250px;
+}
+
+.block_right {
+  min-height: 214px;
+  border-left: 2px solid var(--white);
+  padding-left: 26px;
+  min-width: 250px;
+}
+
+.empty {
+  min-height: 214px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.empty > span {
+  color: var(--text-grey);
+}
