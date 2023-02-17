@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "serve": "serve dist"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.1",
@@ -14,7 +15,8 @@
     "react-dom": "^18.2.0",
     "react-redux": "^8.0.5",
     "redux": "^4.2.0",
-    "redux-saga": "^1.2.2"
+    "redux-saga": "^1.2.2",
+    "serve": "^14.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.26",
